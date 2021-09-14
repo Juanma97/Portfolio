@@ -4,7 +4,8 @@ import Principal from '../Principal/Principal';
 import Projects from '../Projects/Projects';
 import About from '../About/About';
 import Blog from '../Blog/Blog';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
 function App() {
   return (
