@@ -23,14 +23,25 @@
 }
 
 .title {
-    font-size: 84px;
+    font-size: 104px;
     color: white;
+    margin-bottom: 48px;
 }
 
 .paragraph {
-    font-size: 24px;
+    font-size: 34px;
     padding-top: 24px;
     color: white;
+}
+
+.social-link {
+    text-decoration: none;
+    color: white;
+    transition: 1.5s;
+}
+
+.social-link:hover {
+    color: rgb(238, 222, 6);
 }
 
 .download {
@@ -51,5 +62,5 @@
 .download:hover {
     font-size: 22px;
     border-color: white;
-    width: 100%;
+    width: 50%;
 }

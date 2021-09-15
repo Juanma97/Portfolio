@@ -6,3 +6,11 @@ test('renders correctly', () => {
 
     expect(component).toBeTruthy();
 })
+
+test('renders title correctly', () => {
+    const { getByText } = render(<About />);
+
+    const title = getByText('¿Quién soy?')
+
+    expect(title).toBeTruthy();
+})
