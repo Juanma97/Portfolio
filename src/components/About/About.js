@@ -2,7 +2,7 @@ import './About.css';
 
 function About() {
     return(
-        <div>
+        <div className="container-about">
             <div className="title-about">¿Quién soy?</div>
             <div className="paragraph-about">
                 Nací en Canarias en el año 1997, desde pequeño se me dieron bien los estudios, y con 10 años decidí que quería dedicarme

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.working-background {
+    background-color: #f1c40f;
+    height: calc(100vh - 128px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.working-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 84px;
+    color: black;
+}
