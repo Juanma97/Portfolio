@@ -1,6 +1,8 @@
+import WorkingProgress from "../WorkingProgress/WorkingProgress";
+
 function Projects() {
     return(
-        <div>Projects</div>
+        <WorkingProgress />
     )
 }
 
