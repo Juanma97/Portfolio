@@ -1,10 +1,8 @@
 import './Projects.css';
-import WorkingProgress from "../WorkingProgress/WorkingProgress";
 import data from "./projects-data";
 
 function Projects() {
     return(
-        // <WorkingProgress />
         <div className="projects">
             {data.projects.map(project => {
                 return <div className="project" key={project.title}>
